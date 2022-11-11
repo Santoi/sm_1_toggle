@@ -155,7 +155,7 @@ sc_boolean Statechart::isStateActive(StatechartStates state) const
 void Statechart::enact_Toggle_Toggle()
 {
 	/* Entry action for state 'Toggle'. */
-	timerService->setTimer(this, (sc_eventid)(&timeEvents[0]), 500, false);
+	timerService->setTimer(this, (sc_eventid)(&timeEvents[0]), 1000, false);
 	opLedUpdate();
 	viMyCounter++;
 }
