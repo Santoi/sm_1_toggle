@@ -25,7 +25,7 @@ DigitalOut led1(LED1);
 
 void opLedInit()
 {   
-    led1 = OFF;
+    led1 = ON;
 }
 
 void opLedUpdate()
